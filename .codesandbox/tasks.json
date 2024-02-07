@@ -1,0 +1,263 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "awp": {
+      "name": "awp",
+      "command": "yarn awp",
+      "runAtStart": false
+    },
+    "add-webiny-package": {
+      "name": "add-webiny-package",
+      "command": "yarn add-webiny-package",
+      "runAtStart": false
+    },
+    "check-ts-configs": {
+      "name": "check-ts-configs",
+      "command": "yarn check-ts-configs",
+      "runAtStart": false
+    },
+    "check-package-dependencies": {
+      "name": "check-package-dependencies",
+      "command": "yarn check-package-dependencies",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
+    "open": {
+      "name": "open",
+      "command": "yarn open",
+      "runAtStart": false
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "yarn eslint",
+      "runAtStart": false
+    },
+    "eslint:fix": {
+      "name": "eslint:fix",
+      "command": "yarn eslint:fix",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:quick": {
+      "name": "build:quick",
+      "command": "yarn build:quick",
+      "runAtStart": false
+    },
+    "build:apps": {
+      "name": "build:apps",
+      "command": "yarn build:apps",
+      "runAtStart": false
+    },
+    "build:api": {
+      "name": "build:api",
+      "command": "yarn build:api",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "watch:apps": {
+      "name": "watch:apps",
+      "command": "yarn watch:apps",
+      "runAtStart": false
+    },
+    "watch:api": {
+      "name": "watch:api",
+      "command": "yarn watch:api",
+      "runAtStart": false
+    },
+    "clear-dist": {
+      "name": "clear-dist",
+      "command": "yarn clear-dist",
+      "runAtStart": false
+    },
+    "delete-empty-package-folders": {
+      "name": "delete-empty-package-folders",
+      "command": "yarn delete-empty-package-folders",
+      "runAtStart": false
+    },
+    "commit": {
+      "name": "commit",
+      "command": "yarn commit",
+      "runAtStart": false
+    },
+    "commit:no-verify": {
+      "name": "commit:no-verify",
+      "command": "yarn commit:no-verify",
+      "runAtStart": false
+    },
+    "commit:verify": {
+      "name": "commit:verify",
+      "command": "yarn commit:verify",
+      "runAtStart": false
+    },
+    "cypress:open": {
+      "name": "cypress:open",
+      "command": "yarn cypress:open",
+      "runAtStart": false
+    },
+    "cy:open": {
+      "name": "cy:open",
+      "command": "yarn cy:open",
+      "runAtStart": false
+    },
+    "cypress:run": {
+      "name": "cypress:run",
+      "command": "yarn cypress:run",
+      "runAtStart": false
+    },
+    "cy:run": {
+      "name": "cy:run",
+      "command": "yarn cy:run",
+      "runAtStart": false
+    },
+    "cypress:ts": {
+      "name": "cypress:ts",
+      "command": "yarn cypress:ts",
+      "runAtStart": false
+    },
+    "cy:ts": {
+      "name": "cy:ts",
+      "command": "yarn cy:ts",
+      "runAtStart": false
+    },
+    "webiny-versions": {
+      "name": "webiny-versions",
+      "command": "yarn webiny-versions",
+      "runAtStart": false
+    },
+    "trigger-release": {
+      "name": "trigger-release",
+      "command": "yarn trigger-release",
+      "runAtStart": false
+    },
+    "dispatch-github-event": {
+      "name": "dispatch-github-event",
+      "command": "yarn dispatch-github-event",
+      "runAtStart": false
+    },
+    "lint-staged": {
+      "name": "lint-staged",
+      "command": "yarn lint-staged",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "yarn prettier:check",
+      "runAtStart": false
+    },
+    "prettier:fix": {
+      "name": "prettier:fix",
+      "command": "yarn prettier:fix",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "yarn lint:fix",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "yarn release",
+      "runAtStart": false
+    },
+    "setup-project": {
+      "name": "setup-project",
+      "command": "yarn setup-project",
+      "runAtStart": false
+    },
+    "setup-env-files": {
+      "name": "setup-env-files",
+      "command": "yarn setup-env-files",
+      "runAtStart": false
+    },
+    "setup-cypress": {
+      "name": "setup-cypress",
+      "command": "yarn setup-cypress",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:unit": {
+      "name": "test:unit",
+      "command": "yarn test:unit",
+      "runAtStart": false
+    },
+    "test:integration": {
+      "name": "test:integration",
+      "command": "yarn test:integration",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "yarn test:e2e",
+      "runAtStart": false
+    },
+    "validate-packages": {
+      "name": "validate-packages",
+      "command": "yarn validate-packages",
+      "runAtStart": false
+    },
+    "verdaccio:start": {
+      "name": "verdaccio:start",
+      "command": "yarn verdaccio:start",
+      "runAtStart": false
+    },
+    "verdaccio:start:detached": {
+      "name": "verdaccio:start:detached",
+      "command": "yarn verdaccio:start:detached",
+      "runAtStart": false
+    },
+    "webiny": {
+      "name": "webiny",
+      "command": "yarn webiny",
+      "runAtStart": false
+    },
+    "wby": {
+      "name": "wby",
+      "command": "yarn wby",
+      "runAtStart": false
+    },
+    "webiny-ui-build-storybook": {
+      "name": "webiny-ui-build-storybook",
+      "command": "yarn webiny-ui-build-storybook",
+      "runAtStart": false
+    }
+  }
+}
